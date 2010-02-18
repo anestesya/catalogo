@@ -1,0 +1,31 @@
+<h2>Modelos</h2>
+<p>Aqui você pode adicionar um novo modelo para uma coleção existente.</p>
+<form id="modelo">
+	<fieldset>
+		<legend>Adicionar Modelo</legend>
+	
+		<label for="linha">Linha:</label>
+		<select id="linha">
+			<option value="numLin">81</option>
+		</select>
+		
+		<br />
+		<label for="numMod">Nº do Modelo:</label>
+		<input type="text" id="numMod" />
+		
+		<br />
+		<label for="imggMod">Imagem:</label>
+		<input type="text" id="imggMod" />
+		
+		<br />
+		<label for="imgpMod">Imagem menor:</label>
+		<input type="text" id="imgpMod" />
+		
+		<br />
+		<label for="corNum">Nº da cor:</label>
+		<input type="text" id="corNum" />
+		
+		<br />
+		<button id="enviar">Enviar</button>		
+	</fieldset>
+</form>

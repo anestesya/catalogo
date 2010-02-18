@@ -1,0 +1,15 @@
+<form id="colecao" action="">
+		<label for="colNome">Nome da Coleção</label>
+		<input type="text" id="colNome" />
+		
+		<br />
+		<label for="colAno">Ano:</label>
+		<input type="text" id="colAno" />
+		
+		<br />
+		<label for="colMes">Mês:</label>
+		<input type="text" id="colMes" />
+		
+		<br />
+		<input type="submit" id="enviar" />
+</form>

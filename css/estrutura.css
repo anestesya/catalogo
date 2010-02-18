@@ -1,0 +1,12 @@
+#container {width:1000px; height:300px; margin:0 auto; }
+ #header {width:1000px; height:100px; background-color:#ccc; float:left;}
+ 
+ #sidebar {clear:both; float:left; width:200px; height:400px; border:1px solid black;}
+ 
+ #mostruario {width:780px; height:400px; float:right; border:1px solid #999;}
+ 
+ #rodape {width:1000px; height:100px; clear:both; background-color:blue;}
+
+ #galeria {list-style:none; width:100%; float:left;}
+ #galeria li {display:block; width:200px; height:184px; float:left; margin-left:10px; background-color:#ddd; margin-bottom:10px;}
+ 

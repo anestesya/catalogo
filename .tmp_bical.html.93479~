@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>New Adobe AIR Project</title>
+        <script type="text/javascript" src="lib/air/AIRAliases.js"></script>
+        <script type="text/javascript" src="lib/air/AIRIntrospector.js"></script>
+        <script type="text/javascript" src="lib/jquery.js"></script>
+		<script type="text/javascript" src="lib/jutils.js"></script>
+		
+		<link rel="stylesheet" media="screen" type="text/css" href="css/estrutura.css" />
+		<link rel="stylesheet" media="screen" type="text/css" href="css/estilo.css" />
+		
+    </head> 
+    <body>
+    	
+		<div id="container">
+			
+			<div id="header">
+				<h1>Bical</h1>
+			</div>
+			
+			
+			<div id="sidebar">
+				<div id="pesquisa">
+					<input type="text" id="busca" name="busca" />
+					<button type="submit" id="buscar" name="buscar">buscar</button>
+				</div>
+				
+				<ul id="nav">
+					<li><a href="cadastro.html">Cadastro</a>
+						<ul>
+							<li><a href="colecao.html">Coleção</a></li>
+							<li><a href="linha.html">Linha</a></li>
+							<li><a href="modelo.html">Modelo</a></li>
+							<li><a href="detalhes.html">Detalhes</a></li>
+							<li><a href="cores.html">Cores</a></li>
+							<li><a href="tamanho.html">Tamanho</a></li>
+						</ul>
+					</li>
+					<li><a href="bical.html">voltar</a></li>
+				</ul>
+			</div>
+			
+			<div id="mostruario">				
+				<ul id="galeria">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			
+			<div id="rodape">
+				rodape
+			</div>
+		</div> <!-- fim do container -->
+	
+	</body>
+</html>
