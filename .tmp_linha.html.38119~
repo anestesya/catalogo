@@ -1,0 +1,24 @@
+<h2>Adicionar Linha</h2>
+<p>Adicione uma nova linha para algumas das coleções já cadastradas.</p>
+<form id="linha">
+	
+	<fieldset>
+		<legend>Nova linha</legend>
+	
+		<label for="linNum">Numero da linha</label>
+		<input type="text" id="linNum" />
+		
+		<br />
+		<label for="linNome">Nome da linha:</label>
+		<input type="text" id="linNome" />
+		
+		<br />
+		<label for="linMes">Mês:</label>
+		<select id="linMes">
+			 <option value="mes">Mês</option>
+		</select>
+		
+		<br />					
+		<button id="enviar">Enviar</button> 	
+	</fieldset>
+</form>

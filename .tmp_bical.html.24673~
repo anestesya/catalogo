@@ -5,9 +5,7 @@
         <script type="text/javascript" src="lib/air/AIRAliases.js"></script>
         <script type="text/javascript" src="lib/air/AIRIntrospector.js"></script>
         <script type="text/javascript" src="lib/jquery.js"></script>
-		<script type="text/javascript" src="lib/bd.js"></script>
 		<script type="text/javascript" src="lib/jutils.js"></script>
-		<script type="text/javascript" src="lib/jforms-colecao.js"></script>
 		
 		<link rel="stylesheet" media="screen" type="text/css" href="css/estrutura.css" />
 		<link rel="stylesheet" media="screen" type="text/css" href="css/estilo.css" />

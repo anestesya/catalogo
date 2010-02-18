@@ -1,0 +1,19 @@
+<form id="cores" action="">
+		<label for="corNum">Numero da cor:</label>
+		<input type="text" id="corNum" />
+		
+		<br />
+		<label for="corNome">Cor:</label>
+		<input type="text" id="corNome" />
+		
+		<br />
+		<label for="corColor">Color:</label>
+		<input type="text" id="corColor" />
+		
+		<br />
+		<label for="corColorEs">Cor(Espanhol):</label>
+		<input type="text" id="corColorEs" />
+		
+		<br />
+		<input type="submit" id="enviar" />
+</form>
