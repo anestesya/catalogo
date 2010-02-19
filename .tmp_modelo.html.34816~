@@ -1,4 +1,4 @@
-	<h2>Modelos</h2>
+<h2>Modelos</h2>
 <p>Aqui você pode adicionar um novo modelo para uma coleção existente.</p>
 <form id="modelo">
 	<fieldset>
@@ -15,17 +15,15 @@
 		
 		<br />
 		<label for="imggMod">Imagem:</label>
-		<input type="file" id="imggMod" />
+		<input type="text" id="imggMod" />
 		
 		<br />
 		<label for="imgpMod">Imagem menor:</label>
-		<input type="file" id="imgpMod" />
+		<input type="text" id="imgpMod" />
 		
 		<br />
 		<label for="corNum">Nº da cor:</label>
-		<select id="corNum">
-			<option value="numerodacor">12</option>
-		</select>
+		<input type="text" id="corNum" />
 		
 		<br />
 		<button id="enviar">Enviar</button>		

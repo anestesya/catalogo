@@ -1,0 +1,23 @@
+<h2>Adicionar informações sobre as cores utilizadas nos calçados.</h2>
+<p>Adicione as informações que detalhem as cores.</p>
+<form id="cores">
+	<fieldset label="">
+		<label for="corNum">Numero da cor:</label>
+		<input type="text" id="corNum" />
+		
+		<br />
+		<label for="corNome">Cor:</label>
+		<input type="text" id="corNome" />
+		
+		<br />
+		<label for="corColor">Color:</label>
+		<input type="text" id="corColor" />
+		
+		<br />
+		<label for="corColorEs">Cor(Espanhol):</label>
+		<input type="text" id="corColorEs" />
+		
+		<br />
+		<input type="submit" id="enviar" />
+		</fieldset>
+</form>

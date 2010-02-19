@@ -1,6 +1,6 @@
 <h2>Adicionar tamanho dos calçados</h2>
 <p>Adicione as devidas numerações para os calçados, e a forma como são representadas em diferentes países.</p>
-<form id="tamanho">
+<form id="tamanho" action="">
 	
 	 <fieldset>
 		<label for="paisTam">País ex:(BRA):</label>
