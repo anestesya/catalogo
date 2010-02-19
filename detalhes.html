@@ -1,4 +1,13 @@
-<form id="detalhes" action="">
+<h2>Adicionar detalhes há algum cadastro cadastrado.</h2>
+<p>Adicione as informações que fazem parte dos detalhes do produto selecionado.</p>
+<form id="detalhes">
+	  <fieldset>
+		<label for="linha">Linha:</label>
+		<select id="linha">
+			<option value="numLin">81</option>
+		</select> 
+		
+		<br />		
 		<label for="numDet">Numero do detalhe:</label>
 		<input type="text" id="numDet" />
 		
@@ -9,13 +18,8 @@
 		<br />
 		<label for="matDet">Material:</label>
 		<input type="text" id="matDet" />
-		
+								
 		<br />
-		<label for="linha">Linha:</label>
-		<select id="linha">
-			<option value="numLin">81</option>
-		</select> 
-							
-		<br />
-		<input type="submit" id="enviar" />
+		<button id="enviar">Enviar</button>
+	</fieldset>
 	</form>

@@ -12,8 +12,32 @@
 		<input type="text" id="colAno" />
 		
 		<br />
-		<label for="colMes">Mês:</label>
-		<input type="text" id="colMes" />
+		<label for="colMes">Mês de inicio da Estação:</label>
+		<select id="colMes">
+			<optgroup label="Verão">
+				<option value="mes">Dezembro</option>
+				<option value="mes">Janeiro</option>
+				<option value="mes">Fevereiro</option>
+			</optgroup>
+			
+			<optgroup label="Outono">
+				<option value="mes">Março</option>
+				<option value="mes">Abril</option>
+				<option value="mes">Maio</option>
+			</optgroup>
+			
+			<optgroup label="Inverno">
+				<option value="mes">Junho</option>
+				<option value="mes">Julho</option>
+				<option value="mes">Agosto</option>
+			</optgroup>			
+			
+			<optgroup label="Primavera">
+				<option value="mes">Setembro</option>
+				<option value="mes">Outubro</option>
+				<option value="mes">Novembro</option>					
+			</optgroup>
+		</select>
 		
 		<br />
 		<button id="enviar">Enviar</button>		

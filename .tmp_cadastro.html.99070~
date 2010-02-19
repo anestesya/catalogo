@@ -1,0 +1,44 @@
+<table summary="Tabela de cadastros">
+	<caption>Cadastros</caption>
+	<thead>
+		<tr>
+			<td></td>
+			<th scope="col">Coleção</th>
+			<th scope="col">Linha</th>
+			<th scope="col">Quantidade</th>
+	    </tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="4">Próxima</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+			<th scope="row">Modelo</th>
+			<td>Outono/Inverno 2010</td>
+			<td>Baby Star</td>
+			<td>50</td>	
+		</tr>
+		<tr>
+			<th scope="row">Modelo</th>
+			<td>Outono/Inverno 2010</td>
+			<td>Baby Star</td>
+			<td>50</td>	
+		</tr>
+		<tr>
+			<th scope="row">Modelo</th>
+			<td>Outono/Inverno 2010</td>
+			<td>Baby Star</td>
+			<td>50</td>	
+		</tr>
+		<tr>
+			<th scope="row">Modelo</th>
+			<td>Outono/Inverno 2010</td>
+			<td>Baby Star</td>
+			<td>50</td>	
+		</tr>
+		
+		
+	</tbody>
+</table>

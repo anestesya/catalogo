@@ -4,21 +4,21 @@
 	
 	<fieldset>
 		<legend>Nova linha</legend>
-		
-		<label for="colId">Cole&ccedil;&atilde;o:</label>
-		<select id="colId">
-			 <option value="Primavera/Verão">Primavera/Verão</option>
-		</select>
-		
-		<br />
-		<label for="linNum">N&uacute;mero da linha</label>
+	
+		<label for="linNum">Numero da linha</label>
 		<input type="text" id="linNum" />
 		
 		<br />
 		<label for="linNome">Nome da linha:</label>
 		<input type="text" id="linNome" />
-				
+		
+		<br />
+		<label for="linMes">Mês:</label>
+		<select id="linMes">
+			 <option value="mes">Mês</option>
+		</select>
+		
 		<br />					
-		<button id="enviar">Enviar</button>
+		<button id="enviar">Enviar</button> 	
 	</fieldset>
 </form>
