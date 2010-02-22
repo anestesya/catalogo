@@ -1,0 +1,24 @@
+<h2>Adicionar Linha</h2>
+<p>Adicione uma nova linha para algumas das coleções já cadastradas.</p>
+<form id="linha">
+	
+	<fieldset>
+		<legend>Nova linha</legend>
+		
+		<label for="colId">Cole&ccedil;&atilde;o:</label>
+		<select id="colId">
+			 <option value="Primavera/Verão">Primavera/Verão</option>
+		</select>
+		
+		<br />
+		<label for="linNum">N&uacute;mero da linha</label>
+		<input type="text" id="linNum" />
+		
+		<br />
+		<label for="linNome">Nome da linha:</label>
+		<input type="text" id="linNome" />
+				
+		<br />					
+		<button id="enviar">Enviar</button>
+	</fieldset>
+</form>
