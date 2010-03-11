@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Capa</title>
+   <script type="text/javascript" src="lib/jquery.js"></script>
+   <script type="text/javascript" src="lib/jquery.efeitos.js"></script>
+   
+   
+   <style type="text/css">
+   		#container_capa {width:850px; height:595px; margin:0 auto; padding:0; border:1px solid block; background:url(images/bg_capa.jpg) no-repeat center top;}
+		h1, h2 {position:absolute; left:-10000px;}
+		#linhas_desta_coleacao { width:100%; height:63px; float:left; margin-top:473px; list-style:none;}
+		#linhas_desta_coleacao li {width:143px; height:63px; opacity:0.5; float:left;}
+		#linhas_desta_coleacao li a {display:block; width:inherit; height:inherit;}
+		#linhas_desta_coleacao li a span {display:none;}
+		.baby {margin-left:61px;}
+		.kids {width:125px !important; margin: 0 90px 0 90px;}
+		.tweens {width:200px !important;}
+   </style>
+</head>
+<body>
+	<div id="container_capa">
+    	<h1>Bical</h1>
+        <h2>Coleção Outono/Inverno 2010</h2>
+        
+        <ul id="linhas_desta_coleacao">
+           <li class="baby"><a href="baby.html" title="Linha infantil" acesskey="b"><span>Baby</span></a>
+     	   <li class="kids"><a href="kids.html" title="Linha joven" acesskey="k"><span>Kids</span></a>
+     	   <li class="tweens"><a href="tweens.html" title="Linha adolescente" acesskey="t"><span>Tweens</span></a>
+        </ul>
+    </div>
+	
+</body>
+</html>
