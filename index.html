@@ -3,9 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Capa</title>
-   <script type="text/javascript" src="lib/jquery.js"></script>
-   <script type="text/javascript" src="lib/jquery.efeitos.js"></script>
-   
+	<link href="facebox/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="facebox/facebox.js"></script>
+	<script type="text/javascript" src="lib/jquery.efeitos.js"></script>
    
    <style type="text/css">
    		#container_capa {width:850px; height:595px; margin:0 auto; padding:0; border:1px solid block; background:url(images/bg_capa.jpg) no-repeat center top;}
@@ -17,9 +18,36 @@
 		.baby {margin-left:61px;}
 		.kids {width:125px !important; margin: 0 90px 0 90px;}
 		.tweens {width:200px !important;}
+		
+		
+		#login {padding:10px 0 0 30px; height:115px; border:5px solid black; background-color:#CCC; }
+		.campos {height:50px;}
+		.campos input {border:2px solid black; width:150px; margin-left:10px;}
+		.submit {text-align: center;}
+		.login_btn {margin:-20px 0 0 0;}
+		.moca {display: none;}
    </style>
 </head>
 <body>
+	
+	<div class="moca">
+		<form id="login">
+	      <div class="campos">
+	    	<label for="username">Username:</label>
+	        <input type="text" size="15" name="username" class="username" />  
+	      </div>
+
+	      <div class="campos">
+	        <label for="password">Password:</label>
+	        <input type="password" size="15" name="password" class="password" />  
+	      </div> 
+	
+		<div class="submit">
+			<input type="button" accesskey="l" class="login_btn" name="login" value="Login" />  	
+		</div>
+	    </form>
+	</div>
+	
 	<div id="container_capa">
     	<h1>Bical</h1>
         <h2>Coleção Outono/Inverno 2010</h2>

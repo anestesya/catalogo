@@ -34,7 +34,7 @@
 	<!-- Settings for the application's initial window. Required. -->
 	<initialWindow>
 		<!-- The main HTML file of the application. Required. -->
-		<content>bical.html</content>
+		<content>index.html</content>
 		
 		<!-- The title of the main window. Optional. -->
 		<title/>
