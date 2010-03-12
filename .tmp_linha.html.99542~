@@ -7,7 +7,7 @@
 		
 		<label for="colId">Cole&ccedil;&atilde;o:</label>
 		<select id="colId">
-			
+			 <option value="Primavera/Verão">Primavera/Verão</option>
 		</select>
 		
 		<br />
@@ -21,10 +21,4 @@
 		<br />					
 		<button id="enviar">Enviar</button>
 	</fieldset>
-	<script type="text/javascript">
-		jQuery(this).ready(function(){
-			$(this).find('select').html('<option>Foi.</option>');
-		});
-	</script>
-	
 </form>
