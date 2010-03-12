@@ -14,9 +14,9 @@
 		<link rel="stylesheet" media="screen" type="text/css" href="css/estilo.css" />
 		
 		<script type="text/javascript">
-			//jQuery(function($){
-			//	$('#mostruario').montaTela();
-			//});
+			jQuery(function($){
+				$('#mostruario').load('cadastro.html');
+			});
 		</script>
     </head> 
     <body id="bical">

@@ -1,19 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
-	<link type="text/css" src="css/jquery.lightbox.css" rel="stylesheet" href="css/jquery.lightbox.css" />
-	<script type="text/javascript" src="lib/air/AIRAliases.js"></script>
-	<script type="text/javascript" src="lib/air/AIRIntrospector.js"></script>
-	<script type="text/javascript" src="lib/jquery.js"></script>
-	<script type="text/javascript" src="lib/bd.js"></script>
-	<script type="text/javascript" src="lib/jutils.js"></script>
-	<script type="text/javascript" src="lib/jquery.efeitos.js"></script>
-	<script type="text/javascript" src="lib/jforms-colecao.js"></script>
-	<script type="text/javascript" src="lib/jquery.lightbox.js"></script>
-		
-	<title>Miolo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" src="css/jquery.lightbox.css" rel="stylesheet" href="css/jquery.lightbox.css" />
+
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="lib/jquery.lightbox.js"></script>
+<script type="text/javascript" src="lib/jquery.efeitos.js"></script>
+
+<title>Miolo</title>
 
 <style type="text/css">
 	/* container:  */
@@ -90,7 +85,44 @@
         </div>
         	
         <div id="content">
-        	
+        	<ul id="imagens" class="pagina-1">
+     			<li class="imagem_destaque">
+                	<a href="images/tweens/thumbs/evolution/2180323.png" title="" rel="lightbox"><img src="images/tweens/thumbs/evolution/2180304.png" alt="" /></a>
+                    <span class="numero_modelo">097.48-51</span>
+                </li>
+     			<li>
+                	<a href="images/tweens/thumbs/evolution/2180323.png" title="" rel="lightbox"><img src="images/tweens/thumbs/evolution/2180304.png" alt="" /></a>
+                    <span class="numero_modelo">097.48-51</span>
+                </li>
+     			<li>
+                	<a href="images/tweens/thumbs/evolution/2180323.png" title="" rel="lightbox"><img src="images/tweens/thumbs/evolution/2180304.png" alt="" /></a>
+                    <span class="numero_modelo">097.48-51</span>
+                </li>
+     			<li>
+                	<a href="images/tweens/thumbs/evolution/2180323.png" title="" rel="lightbox"><img src="images/tweens/thumbs/evolution/2180304.png" alt="" /></a>
+                    <span class="numero_modelo">097.48-51</span>
+                </li>
+     			<li>
+                	<a href="images/tweens/thumbs/evolution/2180323.png" title="" rel="lightbox"><img src="images/tweens/thumbs/evolution/2180304.png" alt="" /></a>
+                    <span class="numero_modelo">097.48-51</span>
+                </li>
+     			<li>
+                	<a href="images/tweens/thumbs/evolution/2180323.png" title="" rel="lightbox"><img src="images/tweens/thumbs/evolution/2180304.png" alt="" /></a>
+                    <span class="numero_modelo">097.48-51</span>
+                </li>
+     			<li>
+                	<a href="images/tweens/thumbs/evolution/2180323.png" title="" rel="lightbox"><img src="images/tweens/thumbs/evolution/2180304.png" alt="" /></a>
+                    <span class="numero_modelo">097.48-51</span>
+                </li>
+     			<li>
+                	<a href="images/tweens/thumbs/evolution/2180323.png" title="" rel="lightbox"><img src="images/tweens/thumbs/evolution/2180304.png" alt="" /></a>
+                    <span class="numero_modelo">097.48-51</span>
+                </li>
+     			<li>
+                	<a href="images/tweens/thumbs/evolution/2180323.png" title="" rel="lightbox"><img src="images/tweens/thumbs/evolution/2180304.png" alt="" /></a>
+                    <span class="numero_modelo">097.48-51</span>
+                </li>
+     		</ul>
         </div>
           
         
