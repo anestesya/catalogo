@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.aptana.ide.feature.editors:2.0.2.1257900571-8n57H9fY7Pqn0HYN"/>
+		<item value="com.aptana.ide.feature.framework.air.beta:2.0.0.1265236680-7B-Y_usg78BNKBENNT5"/>
+		<item value="com.aptana.ide.feature.rcp:2.0.2.1257900705-7g7W8eFG4N-5QvREjI0ZBh5vcKSL"/>
+		<item value="com.aptana.ide.feature:2.0.2.1257900571-7D-37iQHPy0gMkYqoi1tO"/>
+		<item value="org.eclipse.eclipsemonkey:2.0.0.1255478629-7D--7HNe_uLNhfj"/>
+		<item value="org.eclipse.help:1.1.0.v20090602-7e7eFAlFEx2XZoYqwI68e2F"/>
+		<item value="org.eclipse.platform:3.5.0.v20090611a-9gEeG1HFtQcmRThO4O3aR_fqSMvJR2sJ"/>
+		<item value="org.eclipse.rcp:3.5.0.v20090519-9SA0FwxFv6x089WEf-TWh11"/>
+	</list>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="/home/anestesya/Aptana Studio Workspace" key="OUTSIDE_LOCATION"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>
