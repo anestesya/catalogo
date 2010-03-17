@@ -3,13 +3,10 @@
 <form id="modelo">
 	<fieldset>
 		<legend>Adicionar Modelo</legend>
-	   	<label for="colId">Cole&ccedil;&atilde;o:</label>
-		<select id="colId">
-			
-		</select>
+	
 		<label for="linha">Linha:</label>
 		<select id="listaLinhas">
-
+			<option value="numLin">81</option>
 		</select>
 		
 		<br />
