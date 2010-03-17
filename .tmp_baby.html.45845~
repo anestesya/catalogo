@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<link type="text/css" src="css/jquery.lightbox.css" rel="stylesheet" href="css/jquery.lightbox.css" />
+	<script type="text/javascript" src="lib/air/AIRAliases.js"></script>
+	<script type="text/javascript" src="lib/air/AIRIntrospector.js"></script>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="lib/bd.js"></script>
+	<script type="text/javascript" src="lib/jutils.js"></script>
+	<script type="text/javascript" src="lib/jquery.efeitos.js"></script>
+	<script type="text/javascript" src="lib/jforms-colecao.js"></script>
+	<script type="text/javascript" src="lib/jquery.lightbox.js"></script>
+		
+	<title>Miolo</title>
+
+<style type="text/css">
+	/* container:  */
+	body {magin:0; padding:0;}
+	#container {width:1000px; height:auto; margin:0 auto; padding:0; position:relative;}
+	
+	/*header*/
+	#header {width:1000px; height:100px; background:#fff url(images/baby/header.jpg) no-repeat center top scroll; position:relative;}
+	#header h1 {font:18px Verdana, Geneva, sans-serif; color:white; position:absolute; top:-3px; left:10px;}
+		/*paginacao*/
+		#paginacao {width:360px; height:100px; float:right;}
+		#paginacao a {float:left; display:block; height:39px;}
+		#paginacao a span {display:none;}
+		.bt_anterior {width:55px;}
+		.logo_bical {width:199px; height:99px !important;}
+		.bt_proximo {width:59px;}
+		.bt_contato {width:44px; float:right !important;}
+		
+	/* conteudo: fotos */
+	#content {width:1000px; height:495px; background:url(images/bg_conteudo.jpg) no-repeat center -100px;}
+		/* galeria de fotos: */
+		#imagens {width:1000px; height:475px; list-style:none; padding:0; margin:0;}
+		#imagens li {width:200px; height:203px; float:left;}
+		#imagens li a {text-decoration:none; color:#0095da; display:block; width:200px; height:183px;}
+		#imagens li a img {border:none; width:200px; height:183px; float:left;}
+		#imagens li span {display:block; clear:both; width:100%; height:20px; color:#0095da; text-align:center; margin-top:10px;}
+		
+		#imagens li.imagem_destaque {width:400px; height:287px; margin-top:-86px;}
+		#imagens li.imagem_destaque img {width:400px; height:264px; border:none; text-align:center; margin 0 auto;}
+		#imagens li.imagem_destaque span {float:left; margin-top:15px;}
+		
+		
+						
+	/* rodape: */
+	#rodape {width:1000px; height:70px; background:url(images/baby/rodape.jpg) no-repeat center top;}
+		/* detalhes: numeração e materiais */
+		#numeros_calcados {width:145px; border-right:2px solid white;}
+		#numeros_calcados li {width:68px;}
+		
+		#detalhes_calcados {width:670px;}
+		#detalhes_calcados li {width:198px;}
+		#numeros_calcados, #detalhes_calcados {float:left; height:26px; margin:40px 0 0 10px; padding:0; list-style:none; text-transform:uppercase;}
+		#numeros_calcados li, #detalhes_calcados li {float:left; font:9px Verdana, Geneva, sans-serif; color:white;}
+		
+	/* buscador */
+	#buscador {width:231px; height:427px; position:absolute; top:100px; left:-212px; color:#0095da; text-transform:uppercase; font-size:10px; background:transparent url(images/buscador.png) no-repeat top center;}
+    	#pesquisa {margin:30px 0 0 5px;}
+		#pesquisa label {display:block;}
+		#busca {width:165px; height:17px; border:1px solid #ccc; border-left:none; clear:both; float:left;}
+		#buscar {width:35px; height:20px; border:none; cursor:pointer; background-color:transparent;}
+		
+		#buscador p {margin:0 0 5px 0; clear:both;}
+		.esquerda {float:left; display:block;}
+		.direita {float:right; display:block; margin-right:55px;}
+		
+		#buscador #pesquisa ul {list-style:none; margin:22px 0 0 0; padding:0; clear:both; width:173px; height:298px; overflow:auto;}
+		#buscador #pesquisa ul li span.direita {margin-right:5px;}
+	
+	
+</style>
+</head>
+
+<body>
+	<div id="container">
+    	<div id="header">
+        	<h1><span id="id_linha">097</span> <span id="nome_linha">Baby Star</span></h1>
+            
+            <div id="paginacao">
+                  <a class="bt_anterior" href="#anterior"><span>&lt;</span></a>
+                  <a class="logo_bical" href="http://www.bical.com.br"><span>www.bical.com.br</span></a>
+                  <a class="bt_proximo" href="#proximo"><span>&gt;</span></a>
+                  <a class="bt_contato" href="#contato"><span>contato</span></a>
+            </div>
+        </div>
+        	
+        <div id="content">
+        	
+        </div>
+          
+        
+        <div id="rodape">
+        	<ul id="numeros_calcados">
+               <li><span>15/24 - BRA</span></li>
+               <li><span>1/8 - USA</span></li>
+               <li><span>20/24 - EUR</span></li>
+               <li><span>11/17 - MEX</span></li>
+          	</ul>
+
+            <ul id="detalhes_calcados">
+                <li><span>CABEDAL: MEIA</span></li>
+                <li><span>SOLADO: T.R</span></li>
+                <li><span>UPPER: SOCK</span></li>
+                <li><span>SOLE: T.R</span></li>
+                <li><span>CAPELLADA: MEDIA</span></li>
+                <li><span>SUELA: T.R</span></li>
+            </ul>            
+        </div>
+		
+		<div id="buscador">
+			<div id="pesquisa">
+					<label for="busca">Busca</label> 
+					<input type="text" id="busca" name="busca" />
+					<button type="submit" id="buscar" name="buscar"></button>
+					<p>digite o cód. ou nome da linha</p>
+					
+					<p><span class="esquerda">linha</span> <span class="direita">cód.</span></p>
+					
+					<ul>
+						<li><span class="nome_linha esquerda">081 BABY STAR</span><span class="codigo_calcado direita">081.954-43</span></li>
+						<li><span class="nome_linha esquerda">081 BABY STAR</span><span class="codigo_calcado direita">081.954-43</span></li>
+						<li><span class="nome_linha esquerda">081 BABY STAR</span><span class="codigo_calcado direita">097.48-51</span></li>
+						<li><span class="nome_linha esquerda">081 BABY STAR</span><span class="codigo_calcado direita">081.954-43</span></li>
+						<li><span class="nome_linha esquerda">081 BABY STAR</span><span class="codigo_calcado direita">081.954-43</span></li>
+						<li><span class="nome_linha esquerda">081 BABY STAR</span><span class="codigo_calcado direita">081.954-43</span></li>
+					</ul>
+			</div>
+		</div>
+    </div>
+</body>
+</html>

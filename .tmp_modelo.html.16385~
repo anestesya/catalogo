@@ -7,7 +7,6 @@
 		<select id="colId">
 			
 		</select>
-		
 		<label for="linha">Linha:</label>
 		<select id="listaLinhas">
 
@@ -28,7 +27,7 @@
 		<br />
 		<label for="corNum">Nº da cor:</label>
 		<select id="corNum">
-			
+			<option value="numerodacor">12</option>
 		</select>
 		
 		<br />

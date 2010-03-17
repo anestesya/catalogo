@@ -1,0 +1,33 @@
+.info {
+	background:url("../icons/information.png") no-repeat scroll 15px 50% #F8FAFC;
+	border-bottom:2px solid #B5D4FE;
+	border-top:2px solid #B5D4FE;
+	padding:5px 20px 5px 45px;
+	text-align:left;
+	vertical-align:middle;
+	position:absolute; 
+	width:435px;
+	height:20px;
+	top:50%;
+	left:50%;
+	margin-left:-217px;
+	margin-top:-10px;
+}
+
+.alert {
+	background:url("../icons/exclamation.gif") no-repeat scroll 15px 50% #fff6bf;
+	border-bottom:2px solid #ffd324;
+	border-top:2px solid #ffd324;
+	padding:15px 20px 5px 65px;
+	text-align:left;
+	vertical-align:middle;
+	position:absolute; 
+	width:435px;
+	height:100px;
+	top:50%;
+	left:50%;
+	margin-left:-217px;
+	margin-top:-50px;
+	font-size:15px;
+	font-weight:bold;
+}
